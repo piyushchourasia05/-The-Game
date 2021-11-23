@@ -1,0 +1,54 @@
+{
+    "name": "control",
+    "maps": [
+        {
+            "name": "player",
+            "id": "e1863b38-795e-48ff-ac75-5e98453c3901",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "577a011a-06ba-4607-a82f-a85b3b3eb768",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "aim",
+                    "type": "PassThrough",
+                    "id": "e04d336f-d8c5-4b15-bc94-125fe2e36ec2",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "c12a29a7-30ec-4faa-8e58-0fc09376d654",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "083c5090-e0fa-407c-9f18-7379730129e0",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "aim",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
