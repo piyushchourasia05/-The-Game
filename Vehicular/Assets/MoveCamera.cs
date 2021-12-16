@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class MoveCamera : MonoBehaviour
 {
+    [SerializeField] private Vector3 offset;
     [SerializeField]
     private float _mouseSensitivity = 3.0f;
 
@@ -44,5 +45,6 @@ public class MoveCamera : MonoBehaviour
 
         // Substract forward vector of the GameObject to point its forward vector to the target
         transform.position = _target.position - transform.forward * _distanceFromTarget;
+       
     }
 }
