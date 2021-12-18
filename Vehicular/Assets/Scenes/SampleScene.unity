@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.35426012, g: 0.35496706, b: 0.3221058, a: 1}
+  m_IndirectSpecularColor: {r: 0.3542345, g: 0.35493535, b: 0.3220636, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -16897,7 +16897,7 @@ MonoBehaviour:
   m_Center: {x: 0, y: 2, z: 0}
   m_LayerMask:
     serializedVersion: 2
-    m_Bits: 55
+    m_Bits: 64
   m_UseGeometry: 0
   m_DefaultArea: 0
   m_IgnoreNavMeshAgent: 1
@@ -27567,6 +27567,7 @@ GameObject:
   - component: {fileID: 6854662532565807814}
   - component: {fileID: 6854662532565807815}
   - component: {fileID: 6854662532565807816}
+  - component: {fileID: 6854662532565807817}
   m_Layer: 6
   m_Name: Ambulance
   m_TagString: Untagged
@@ -29324,7 +29325,7 @@ NavMeshAgent:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6083087585351297148}
   m_Enabled: 1
-  m_AgentTypeID: 0
+  m_AgentTypeID: -1372625422
   m_Radius: 0.5
   m_Speed: 3.5
   m_Acceleration: 8
@@ -29338,6 +29339,20 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6854662532565807817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6083087585351297148}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd67eabcd5fac3d458edc949e63cd3bc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movePosition: {fileID: 0}
+  agent: {fileID: 6854662532565807816}
 --- !u!1 &6882741703117483763
 GameObject:
   m_ObjectHideFlags: 0
