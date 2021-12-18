@@ -12,7 +12,7 @@ public class MoveCamera : MonoBehaviour
     private float _rotationX;
 
     [SerializeField]
-    private Transform _target;
+    public Transform _target;
 
     [SerializeField]
     private float _distanceFromTarget = 3.0f;
