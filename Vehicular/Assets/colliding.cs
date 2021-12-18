@@ -25,6 +25,8 @@ public class colliding : MonoBehaviour
             target.GetComponent<carcontroller>().enabled = true;
             current.GetComponent<carcontroller>().enabled = false;
             cam.GetComponent<MoveCamera>()._target = target.transform;
+            current = target;
+            target = null;
             selectable = false;
         }
     }
