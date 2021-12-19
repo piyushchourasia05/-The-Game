@@ -23,6 +23,7 @@ public class colliding : MonoBehaviour
             
             Debug.Log("Name of target - " + target);
             target.GetComponent<carcontroller>().enabled = true;
+            current.GetComponent<Rigidbody>().velocity = new Vector3(0f, 0f, 0f);
             current.GetComponent<carcontroller>().enabled = false;
             cam.GetComponent<MoveCamera>()._target = target.transform;
             current = target;
