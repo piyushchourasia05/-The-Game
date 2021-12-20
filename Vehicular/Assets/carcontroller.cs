@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class carcontroller : MonoBehaviour
 {
@@ -29,10 +30,16 @@ public class carcontroller : MonoBehaviour
 
     private void FixedUpdate()
     {
+        Cursor.visible = false;
         GetInput();
         HandleMotor();
         HandleSteering();
         UpdateWheels();
+        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return))
+        {
+            Cursor.visible = true;
+            SceneManger.LoadScene(0);   
+        }
     }
 
 

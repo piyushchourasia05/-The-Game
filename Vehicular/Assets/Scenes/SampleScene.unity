@@ -34188,6 +34188,7 @@ GameObject:
   - component: {fileID: 1144768089}
   - component: {fileID: 1144768088}
   - component: {fileID: 1144768087}
+  - component: {fileID: 1144768090}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -34218,8 +34219,8 @@ SphereCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144768085}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
+  m_IsTrigger: 1
+  m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
@@ -34273,6 +34274,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144768085}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1144768090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1144768085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51a557cb92e23b64b9ae317979985425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1149161919
 GameObject:
   m_ObjectHideFlags: 0
@@ -64329,7 +64342,7 @@ GameObject:
   - component: {fileID: 2133708222154361844}
   m_Layer: 6
   m_Name: Ambulance_1
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65084,7 +65097,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5470085336683140527}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2.43, y: 2.11, z: 6.18}
@@ -65292,7 +65305,7 @@ GameObject:
   - component: {fileID: 4657413664735891225}
   m_Layer: 6
   m_Name: Ambulance
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
