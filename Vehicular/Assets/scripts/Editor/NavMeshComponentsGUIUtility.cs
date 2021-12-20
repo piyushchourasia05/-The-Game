@@ -240,7 +240,7 @@ namespace UnityEditor.AI
                 }
                 return labelName;
             }
-            
+
             return "Mixed...";
         }
 

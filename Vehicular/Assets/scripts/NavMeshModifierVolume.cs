@@ -4,7 +4,7 @@ namespace UnityEngine.AI
 {
     [ExecuteInEditMode]
     [AddComponentMenu("Navigation/NavMeshModifierVolume", 31)]
-   
+  
     public class NavMeshModifierVolume : MonoBehaviour
     {
         [SerializeField]
