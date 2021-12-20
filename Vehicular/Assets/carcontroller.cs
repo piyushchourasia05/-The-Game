@@ -38,7 +38,7 @@ public class carcontroller : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.Return))
         {
             Cursor.visible = true;
-            SceneManger.LoadScene(0);   
+            SceneManager.LoadScene(0);   
         }
     }
 
