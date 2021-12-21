@@ -14,7 +14,8 @@ public class ambulancemovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        agent.destination = movePosition.position;
-    }
+        if (Input.GetKeyDown("t"))
+        {
+            agent.destination = movePosition.position;
+        }   }
 }
